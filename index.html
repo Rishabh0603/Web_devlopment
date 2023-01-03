@@ -28,7 +28,8 @@
 <hr>
 <h2 >@lists</h2>
 <h3 >unordered list for study materials</h3>
-<ul>
+<p>this list will not have bullets </p>
+<ul class="list-non-bullet">
     <li>notebook</li>
     <li>pens</li>
     <li>pencils</li>
@@ -36,31 +37,33 @@
     <li>youtube channel</li>
 </ul>
 <h3 >unordered list of study material in inline format (will be done using css)</h3>
-<ul>
-    <li>notebook</li>
-    <li>pens</li>
-    <li>pencils</li>
-    <li>laptop</li>
-    <li>youtube channel</li>
+<p>this will also not have bullets</p>
+<ul class="list-non-bullet" >
+    <li class="list-inline">notebook</li>
+    <li  class="list-inline">pens</li>
+    <li  class="list-inline">pencils</li>
+    <li  class="list-inline">laptop</li>
+    <li  class="list-inline">youtube channel</li>
 </ul>
 <h3 >reverse order list</h3>
-<ol>
+<ol reversed>
     <li>Water</li>
     <li>Earth</li>
     <li>Sky</li>
 </ol>
+<hr>
 <h2 >@nav</h2>
-<nav>
-    <div>Iambrand</div>
-    <ul>
-        <li>
-            <a href="/">Home</a>
+<nav class="navigation container">
+    <div class="nav-brand">Iambrand</div>
+    <ul class="list-non-bullet nav-pills ">
+        <li class="list-item-inline">
+            <a class="link link-active" href="/">Home</a>
         </li>
-        <li>
-            <a href="/">Product</a>
+        <li class="list-item-inline">
+            <a class="link" href="/">Product</a>
         </li>
-        <li>
-            <a href ="/">About</a>
+        <li class="list-item-inline">
+            <a class="link" href ="/">About</a>
         </li>
     </ul>
 </nav>
