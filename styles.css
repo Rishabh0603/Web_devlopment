@@ -2,7 +2,7 @@
 :root {
     --primary-color:#a855f7;
     --grey-color:#d1d5db;
-    --greyish-shade:#9ca3af;
+    --greyish-shade:#d3d7dd;
 }
 
  body{
@@ -17,6 +17,7 @@ hr{
 .container{
     padding-left : 1rem;
     padding-right : 1rem;
+
 }
 .container-center{
     max-width: 600px;
@@ -34,7 +35,7 @@ hr{
 .secondary-link{
     color:black;
     border-radius:0.5rem;
-    border: .5px solid var(--primary-color);
+    border: 0.5px solid var(--primary-color);
     background-color:white
 }
 /**lists**/
