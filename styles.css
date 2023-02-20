@@ -85,6 +85,9 @@ border-bottom-left-radius: 1rem;
 }
 .section{
     padding:2rem;
+    border-radius:2rem;
+    
+
 }
 .section h1 {
 text-align: center;
@@ -112,4 +115,7 @@ text-align: center;
 }
 .footer ul{
     padding-inline-start: 0px
+}
+span{
+    text-align: center;
 }
